@@ -12,8 +12,8 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-blue-500">
-            <nav className="relative px-4 py-4 flex justify-between items-center bg-white">
+        <div className="bg-blue-500 max-w-6xl mx-auto">
+            <nav className="relative lg:px-0 px-4 py-4 flex justify-between items-center bg-white">
                 <a href="#" className="text-3xl font-bold leading-none">
                     {/* Replace with your logo SVG */}
                     Logo

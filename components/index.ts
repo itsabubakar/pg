@@ -1,3 +1,5 @@
 export { default as Navbar } from './Navbar/Navbar'
+export { default as HeroSection } from './Hero/HeroSection'
 export { default as CtaButton } from './CtaButton'
+export { default as FlexedImage } from './FlexedImage'
 // export {default as Footer} from './layout/Footer'
