@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <footer className="bg-white rounded-lg shadow">
-            <div className="w-full max-w-6xl mx-auto p-4 md:py-8">
+        <footer className="bg-white mt-10 ">
+            <div className="w-full max-w-6xl mx-auto md:px-0 p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <Link className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse" href="https://flowbite.com/">
                         <span className="self-center text-2xl font-semibold whitespace-nowrap ">Logo</span>

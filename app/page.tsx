@@ -1,4 +1,6 @@
-import { CtaButton, FlexedImage, Footer, HeroSection, RegistrationFlow } from "@/components"
+import { imgFive } from "@/assets"
+import { CtaButton, FlexedImage, Footer, HeroSection, Prizes, RegistrationFlow } from "@/components"
+import Image from "next/image"
 
 type Props = {}
 const page = (props: Props) => {
@@ -28,11 +30,26 @@ const page = (props: Props) => {
       </section>
 
       <RegistrationFlow />
+      <Prizes/>
 
 
       <section className="pt-20">
         <h2 className="text-3xl text-center text-gray-800 font-semibold pb-4">The Judges</h2>
-        <p className=" text-center text-gray-700">Get an opportunity to get feedback from the best and brightest designers in UX!</p>
+        <p className=" text-center text-gray-700 pb-4">Get an opportunity to get feedback from the best and brightest designers in UX!</p>
+        <div className="flex flex-col sm:flex-row gap-10">
+          <div className="sm:w-1/3">
+            <Image alt="Judge" src={imgFive} className="rounded"/>
+            <h3 className="pt-2">Mr Judge</h3>
+          </div>
+          <div className="sm:w-1/3">
+            <Image alt="Judge" src={imgFive} className="rounded"/>
+            <h3 className="pt-2">Mr Judge</h3>
+          </div>
+          <div className="sm:w-1/3">
+            <Image alt="Judge" src={imgFive} className="rounded"/>
+            <h3 className="pt-2">Mr Judge</h3>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -52,11 +69,6 @@ const page = (props: Props) => {
 
       </section>
 
-      {/* Hello world */}
-
-
-
-      <Footer />
 
     </div>
   )

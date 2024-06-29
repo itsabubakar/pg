@@ -1,5 +1,6 @@
 export { default as Navbar } from './Navbar/Navbar'
 export { default as HeroSection } from './Homepage/HeroSection'
+export { default as Prizes } from './Homepage/Prizes'
 export { default as CtaButton } from './CtaButton'
 export { default as FlexedImage } from './FlexedImage'
 export { default as Footer } from './Footer'
